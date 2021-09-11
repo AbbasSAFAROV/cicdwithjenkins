@@ -1,0 +1,7 @@
+services:
+  springboot-app:
+    container_name: springbootContainer
+    image: springbootImage
+    build:
+      context: .
+      dockerfile:
